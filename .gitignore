@@ -1,0 +1,8 @@
+#Pastas a serem ignoradas
+books/
+lib/
+
+#arquivos a serem ignorados
+books.sql
+*.log
+workspaceCFG.code-workspace
