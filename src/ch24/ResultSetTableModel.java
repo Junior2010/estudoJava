@@ -14,6 +14,7 @@ import javax.swing.table.AbstractTableModel;
 //necessário adicionar 1 ao número de linha ou coluna para manipular
 //a coluna apropriada de ResultSet (isto é, coluna 0 de JTable é a
 //coluna de ResultSet 1 e a linha JTable 0 é a linha de ResultSet 1).
+@SuppressWarnings (value={"serial"})
 public class ResultSetTableModel extends AbstractTableModel 
 {
     private final Connection connection;
@@ -46,7 +47,7 @@ public class ResultSetTableModel extends AbstractTableModel
     }
 
     //obtem a classe que representa o tipo de coluna
-    public Class getColumnClass(int coluna) throws IllegalStateException
+    public Class<?> getColumnClass(int coluna) throws IllegalStateException
     {
         //certifica-se de que há uma conexão disponível com o banco de dados
         if (!connectedToDatabase)

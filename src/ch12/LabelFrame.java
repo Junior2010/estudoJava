@@ -9,7 +9,11 @@ import javax.swing.ImageIcon;//carrega imagens
 
 public class LabelFrame extends JFrame
 {
-    private final JLabel label1;//JLabel apenas com texto
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+	private final JLabel label1;//JLabel apenas com texto
     private final JLabel label2;//JLabel construído com texto e icone
     private final JLabel label3;//JLabel com texto e icone adicionados
 

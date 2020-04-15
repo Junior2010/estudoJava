@@ -21,7 +21,7 @@ import javax.swing.JTextField;
 import javax.swing.RowFilter;
 import javax.swing.table.TableRowSorter;
 import javax.swing.table.TableModel;
-
+@SuppressWarnings(value={"serial"})
 public class DisplayQueryResults extends JFrame 
 {
    // database URL, username and password
