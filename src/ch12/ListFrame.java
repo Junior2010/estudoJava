@@ -11,6 +11,10 @@ import javax.swing.ListSelectionModel;
 
 public class ListFrame extends JFrame
 {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private final JList<String> colorJList;
     private static final String[] colorNames = { "Black",
 "Blue", "Cyan", "Dark Gray", "Gray", "Green", "Ligth Gray", "Magenta",

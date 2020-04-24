@@ -11,7 +11,11 @@ import javax.swing.ListSelectionModel;
 
 public class MultipleSelectionFrame extends JFrame
 {
-    private final JList<String> colorJList;//lista para armazenar nomes de cor
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+    private final JList<String> colorJList;// lista para armazenar nomes de cor
     private final JList<String> copyJList;//lista para armazenar os nomes copiados
     private JButton copyJButton;//botão para copiar nomes selecionados
     private static final String[] colorNames = { "Black", "Blue", "Cyan",
