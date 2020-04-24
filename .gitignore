@@ -6,3 +6,6 @@ lib/
 books.sql
 *.log
 workspaceCFG.code-workspace
+/bin/
+/.classpath
+/.project
